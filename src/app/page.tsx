@@ -5,7 +5,7 @@ import ReactLenis from "lenis/react";
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FeatureCardTwentySeven from '@/components/sections/feature/FeatureCardTwentySeven';
-import FooterSimpleMedia from '@/components/sections/footer/FooterSimpleMedia/FooterSimpleMedia';
+import FooterSimpleMedia from '@/components/sections/footer/FooterSimpleMedia';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import TeamCardTen from '@/components/sections/team/TeamCardTen';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
@@ -45,17 +45,10 @@ export default function LandingPage() {
         "At I Bang Records, we believe every note tells a story. Our label serves as a catalyst for creative growth, providing a sanctuary where artists are empowered to push the boundaries of their craft.",        "We specialize in comprehensive artist management, strategic promotion, and world-class production support, ensuring that every project reaches its full sonic potential."
       ]}
     />
-    <div className="px-6 md:px-12 py-8 flex flex-col md:flex-row gap-8 items-center">
-        <div className="w-full md:w-1/2 h-64 bg-accent/20 rounded-2xl flex items-center justify-center">
-            <p className="text-muted-foreground">Placeholder Content</p>
-        </div>
-        <div className="w-full md:w-1/2 h-64 bg-gray-200 rounded-2xl overflow-hidden shadow-inner">
-            <img 
-                src="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778742107545-xxt9pvt3.jpg" 
-                alt="Legacy Visual" 
-                className="w-full h-full object-cover"
-            />
-        </div>
+    <div className="flex flex-col items-center justify-center p-8 border-2 border-dashed rounded-lg border-muted-foreground/20 m-8">
+      <div className="w-full max-w-sm h-48 bg-muted rounded-lg animate-pulse flex items-center justify-center">
+        <span className="text-muted-foreground font-medium">Image Placeholder</span>
+      </div>
     </div>
   </div>
 
