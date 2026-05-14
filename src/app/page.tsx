@@ -6,7 +6,6 @@ import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FeatureCardTwentySeven from '@/components/sections/feature/FeatureCardTwentySeven';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import TeamCardTen from '@/components/sections/team/TeamCardTen';
 import TestimonialCardSixteen from '@/components/sections/testimonial/TestimonialCardSixteen';
@@ -94,25 +93,6 @@ export default function LandingPage() {
       ]}
       title="What We Do"
       description="We offer a full suite of services to transform your musical vision into a reality."
-    />
-  </div>
-
-  <div id="metrics" data-section="metrics">
-      <MetricCardTwo
-      animationType="slide-up"
-      textboxLayout="default"
-      gridVariant="uniform-all-items-equal"
-      useInvertedBackground={false}
-      metrics={[
-        {
-          id: "m1",          value: "15+",          description: "Chart-topping hits"},
-        {
-          id: "m2",          value: "5M+",          description: "Global streams"},
-        {
-          id: "m3",          value: "20+",          description: "Artists developed"},
-      ]}
-      title="Our Impact"
-      description="Evidence of our commitment to excellence."
     />
   </div>
 
