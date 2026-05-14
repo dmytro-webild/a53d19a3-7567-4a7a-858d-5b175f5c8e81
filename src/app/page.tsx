@@ -111,7 +111,7 @@ export default function LandingPage() {
           href: "#contact",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/closeup-shot-cartridge-portable-gramophone-with-blurred-background_181624-18095.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/closeup-shot-cartridge-portable-gramophone-with-blurred-background_181624-18095.jpg?_wi=1"
       imageAlt="I Bang Records Studio Session"
       avatars={[
         {
@@ -187,7 +187,7 @@ export default function LandingPage() {
         {
           id: "art-1",
           name: "Symphony Soul",
-          imageSrc: "http://img.b2bpic.net/free-photo/person-producing-music-indoors_23-2148924304.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/person-producing-music-indoors_23-2148924304.jpg?_wi=1",
           imageAlt: "Artist Symphony Soul",
         },
         {
@@ -228,7 +228,7 @@ export default function LandingPage() {
           descriptions: [
             "State-of-the-art studio access with world-class engineers.",
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-cartridge-portable-gramophone-with-blurred-background_181624-18095.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-cartridge-portable-gramophone-with-blurred-background_181624-18095.jpg?_wi=2",
           imageAlt: "record label office",
         },
         {
@@ -237,7 +237,7 @@ export default function LandingPage() {
           descriptions: [
             "High-impact campaigns designed to maximize your reach.",
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/person-producing-music-indoors_23-2148924304.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/person-producing-music-indoors_23-2148924304.jpg?_wi=2",
           imageAlt: "record label office",
         },
       ]}
