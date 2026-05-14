@@ -45,6 +45,18 @@ export default function LandingPage() {
         "At I Bang Records, we believe every note tells a story. Our label serves as a catalyst for creative growth, providing a sanctuary where artists are empowered to push the boundaries of their craft.",        "We specialize in comprehensive artist management, strategic promotion, and world-class production support, ensuring that every project reaches its full sonic potential."
       ]}
     />
+    <div className="px-6 md:px-12 py-8 flex flex-col md:flex-row gap-8 items-center">
+        <div className="w-full md:w-1/2 h-64 bg-accent/20 rounded-2xl flex items-center justify-center">
+            <p className="text-muted-foreground">Placeholder Content</p>
+        </div>
+        <div className="w-full md:w-1/2 h-64 bg-gray-200 rounded-2xl overflow-hidden shadow-inner">
+            <img 
+                src="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778742107545-xxt9pvt3.jpg" 
+                alt="Legacy Visual" 
+                className="w-full h-full object-cover"
+            />
+        </div>
+    </div>
   </div>
 
   <div id="artists" data-section="artists">
