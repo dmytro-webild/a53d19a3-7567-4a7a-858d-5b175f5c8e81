@@ -5,7 +5,7 @@ import ReactLenis from "lenis/react";
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FeatureCardTwentySeven from '@/components/sections/feature/FeatureCardTwentySeven';
-import FooterSimpleMedia from '@/components/sections/footer/FooterSimpleMedia';
+import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import TeamCardTen from '@/components/sections/team/TeamCardTen';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
@@ -110,7 +110,7 @@ export default function LandingPage() {
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterSimpleMedia
+      <FooterBaseCard
       logoText="I Bang Records"
       columns={[]}
     />
