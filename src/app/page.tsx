@@ -115,23 +115,23 @@ export default function LandingPage() {
       imageAlt="I Bang Records Studio Session"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/portrait-female-movie-producer_23-2148915841.jpg",
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778740536021-l44k8syi.jpg",
           alt: "Artist Manager",
         },
         {
-          src: "http://img.b2bpic.net/free-photo/medium-shot-artist-playing-guitar_23-2149154307.jpg",
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778740553477-f4wc41rn.jpg",
           alt: "Lead Vocalist",
         },
         {
-          src: "http://img.b2bpic.net/free-photo/close-up-people-with-musical-instruments_23-2149223605.jpg",
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778740563945-pd8wofci.jpg",
           alt: "Senior Producer",
         },
         {
-          src: "http://img.b2bpic.net/free-photo/medium-shot-smiley-woman-holding-guitar_23-2149154289.jpg",
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778740610047-zyf0am6a.jpg",
           alt: "Marketing Head",
         },
         {
-          src: "http://img.b2bpic.net/free-photo/medium-shot-women-playing-together_23-2149223633.jpg",
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778740601959-a1l9grpl.jpg",
           alt: "Live Performer",
         },
       ]}
