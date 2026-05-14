@@ -79,7 +79,7 @@ export default function LandingPage() {
       features={[
         {
           id: "s1",          title: "Artist Development",          descriptions: [
-            "Full guidance from brand building to live performance coaching. We work together and as a family to ensure that we are putting the music that not only we love but our audiance as well. "],
+            "Full guidance from brand building to live performance coaching. We work together and as a family to ensure that we are putting the music that not only we love but our audiance as well. We have in house managers to guide our Artist in the right direction so thier future can be secured and structured.  "],
           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778741447753-thoj0byz.jpg",          imageAlt: "record label office"},
         {
           id: "s2",          title: "Production Support",          descriptions: [
