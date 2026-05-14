@@ -61,11 +61,11 @@ export default function LandingPage() {
       membersAnimation="slide-up"
       members={[
         {
-          id: "art-1",          name: "Symphony Soul",          imageSrc: "http://img.b2bpic.net/free-photo/person-producing-music-indoors_23-2148924304.jpg?_wi=1",          imageAlt: "Artist Symphony Soul"},
+          id: "art-1",          name: "Mikey 3ang ",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778740960550-436j55r5.jpg",          imageAlt: "Artist Symphony Soul"},
         {
-          id: "art-2",          name: "Urban Pulse",          imageSrc: "http://img.b2bpic.net/free-photo/guitar-music-outdoors_23-2148079096.jpg",          imageAlt: "Artist Urban Pulse"},
+          id: "art-2",          name: "Kwayy Yungankk",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778741051426-yzlhyv7y.jpg",          imageAlt: "Artist Urban Pulse"},
         {
-          id: "art-3",          name: "Echo Theory",          imageSrc: "http://img.b2bpic.net/free-photo/handsome-young-musician-with-stylish-hair-elegant-clothes-with-guitar-his-hands-playing-posing-dark-background_613910-18283.jpg",          imageAlt: "Artist Echo Theory"},
+          id: "art-3",          name: "Go Baby",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778741070298-iycimyt7.jpg",          imageAlt: "Artist Echo Theory"},
       ]}
       memberVariant="card"
     />
