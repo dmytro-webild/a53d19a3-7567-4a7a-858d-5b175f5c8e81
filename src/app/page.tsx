@@ -125,7 +125,7 @@ export default function LandingPage() {
       description="Send us your demo or reach out regarding professional inquiries."
       buttons={[
         {
-          text: "Contact Us",          href: "mailto:marcelawilliams423@gmail.com"},
+          text: "Contact Us",          href: "https://ibangrecords.com"},
       ]}
     />
   </div>
