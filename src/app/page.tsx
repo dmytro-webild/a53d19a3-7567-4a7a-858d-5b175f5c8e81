@@ -5,7 +5,7 @@ import ReactLenis from "lenis/react";
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FeatureCardTwentySeven from '@/components/sections/feature/FeatureCardTwentySeven';
-import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
+import FooterSimpleMedia from '@/components/sections/footer/FooterSimpleMedia';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import TeamCardTen from '@/components/sections/team/TeamCardTen';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
@@ -131,13 +131,18 @@ export default function LandingPage() {
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterBaseReveal
+      <FooterSimpleMedia
       logoText="I Bang Records"
-      columns={[
-        { title: "Navigation", items: [{ label: "About", href: "#about" }, { label: "Artists", href: "#artists" }, { label: "Services", href: "#services" }] },
-        { title: "Socials", items: [{ label: "Instagram", href: "#" }, { label: "TikTok", href: "#" }] }
+      links={[
+        { label: "About", href: "#about" },
+        { label: "Artists", href: "#artists" },
+        { label: "Services", href: "#services" }
       ]}
-      copyrightText="© 2025 I Bang Records"
+      socials={[
+        { platform: "instagram", href: "#" },
+        { platform: "tiktok", href: "#" }
+      ]}
+      copyright="© 2025 I Bang Records"
     />
   </div>
       </ReactLenis>
