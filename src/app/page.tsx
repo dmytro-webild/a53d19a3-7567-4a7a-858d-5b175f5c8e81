@@ -5,7 +5,7 @@ import ReactLenis from "lenis/react";
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FeatureCardTwentySeven from '@/components/sections/feature/FeatureCardTwentySeven';
-import FooterSimpleMedia from '@/components/sections/footer/FooterSimpleMedia';
+import FooterSimpleMedia from '@/components/sections/footer/FooterSimpleMedia/FooterSimpleMedia';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import TeamCardTen from '@/components/sections/team/TeamCardTen';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
@@ -54,13 +54,13 @@ export default function LandingPage() {
       title="Meet Our Artists"
       tag="Creative Talent"
       membersAnimation="slide-up"
+      memberVariant="card"
       members={[
         { id: "art-1", name: "Mikey 3ang ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778740960550-436j55r5.jpg", imageAlt: "Artist Symphony Soul" },
         { id: "art-2", name: "Kwayy Yungankk", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778741051426-yzlhyv7y.jpg", imageAlt: "Artist Urban Pulse" },
         { id: "art-4", name: "King Art ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778741436261-7vt0jbiz.jpg", imageAlt: "Artist King Art" },
         { id: "art-3", name: "Go Baby", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778741070298-iycimyt7.jpg?_wi=2", imageAlt: "Artist Echo Theory" }
       ]}
-      memberVariant="card"
     />
   </div>
 
