@@ -65,7 +65,7 @@ export default function LandingPage() {
         {
           id: "art-2",          name: "Kwayy Yungankk",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778741051426-yzlhyv7y.jpg",          imageAlt: "Artist Urban Pulse"},
         {
-          id: "art-4",          name: "King Art ",          imageSrc: "",          imageAlt: "New artist placeholder"},
+          id: "art-4",          name: "King Art ",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778741070298-iycimyt7.jpg",          imageAlt: "Artist King Art"},
         {
           id: "art-3",          name: "Go Baby",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778741070298-iycimyt7.jpg",          imageAlt: "Artist Echo Theory"},
       ]}
