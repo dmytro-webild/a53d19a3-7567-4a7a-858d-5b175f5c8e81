@@ -10,8 +10,8 @@ import { Public_Sans } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'I Bang Records | Independent Label',
-  description: 'The official website for I Bang Records. We nurture talent and define the future of sound.',
+  title: "I Bang Records | The Bang Family",
+  description: "The official website for I Bang Records. We nurture talent and define the future of sound.",
   keywords: ["record label, music, artist management, music production, independent label, I Bang Records"],
   openGraph: {
     "title": "I Bang Records",
