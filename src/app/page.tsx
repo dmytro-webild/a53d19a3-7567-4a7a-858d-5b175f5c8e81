@@ -125,11 +125,14 @@ export default function LandingPage() {
 
         <div id="contact" data-section="contact">
           <ContactCTA
+            tag="Inquiries"
             title="Ready to Start Your Journey?"
             description="Send us your demo or reach out regarding professional inquiries."
             buttons={[
               { text: "Contact Us", href: "mailto:marcelawilliams423@gmail.com" }
             ]}
+            background={{ variant: "plain" }}
+            useInvertedBackground={false}
           />
         </div>
 
