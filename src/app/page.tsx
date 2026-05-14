@@ -88,7 +88,7 @@ export default function LandingPage() {
         {
           id: "s3",          title: "Strategic Marketing",          descriptions: [
             "High-impact campaigns designed to maximize your reach. We are working with many talented well known artist to showcase our artist on features and opening acts. We are streaming our 1st song We Gang in the FW Bang Compilation on all streaming platforms."],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778741469054-4se1p1bu.jpg",          imageAlt: "record label office"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778741956008-8aune0k5.jpg",          imageAlt: "record label office"},
       ]}
       title="What We Do"
       description="We offer a full suite of services to transform your musical vision into a reality."
@@ -107,7 +107,7 @@ export default function LandingPage() {
         {
           id: "q3",          title: "Do you accept new artists?",          content: "We are always looking for visionary talent that aligns with our label values."},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/medium-shot-women-with-guitars-floor_23-2149130761.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778741912220-w5ia710a.jpg"
       mediaAnimation="slide-up"
       title="Label FAQs"
       description="Common questions about working with I Bang Records."
