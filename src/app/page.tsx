@@ -5,7 +5,7 @@ import ReactLenis from "lenis/react";
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FeatureCardTwentySeven from '@/components/sections/feature/FeatureCardTwentySeven';
-import FooterBase from '@/components/sections/footer/FooterBase';
+import FooterSimpleMedia from '@/components/sections/footer/FooterSimpleMedia';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import TeamCardTen from '@/components/sections/team/TeamCardTen';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
@@ -131,25 +131,7 @@ export default function LandingPage() {
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterBase
-      columns={[
-        {
-          title: "Label",          items: [
-            {
-              label: "About Us",              href: "#about"},
-            {
-              label: "Artists",              href: "#artists"},
-          ],
-        },
-        {
-          title: "Support",          items: [
-            {
-              label: "FAQs",              href: "#faq"},
-            {
-              label: "Contact",              href: "#contact"},
-          ],
-        },
-      ]}
+      <FooterSimpleMedia
       logoText="I Bang Records"
       copyrightText="© 2025 I Bang Records"
     />
