@@ -83,7 +83,7 @@ export default function LandingPage() {
           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778742107545-xxt9pvt3.jpg",          imageAlt: "record label office"},
         {
           id: "s2",          title: "Production Support",          descriptions: [
-            "State-of-the-art studio access with world-class engineers. We have studio access in California and a Studio in Colorado. We are currently working on building a Mobile Studio. "],
+            "State-of-the-art studio access with world-class engineers. We have studio access in Colorado. We are currently working on building a Mobile Studio. "],
           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778742340555-ryr3zgkh.jpg",          imageAlt: "record label office"},
         {
           id: "s3",          title: "Strategic Marketing",          descriptions: [
@@ -135,7 +135,7 @@ export default function LandingPage() {
       logoText="I Bang Records"
       columns={[
         { title: "Navigation", items: [{ label: "About", href: "#about" }, { label: "Artists", href: "#artists" }, { label: "Services", href: "#services" }] },
-        { title: "Socials", items: [{ label: "Instagram", href: "#" }] }
+        { title: "Socials", items: [{ label: "Instagram", href: "#" }, { label: "Facebook", href: "https://www.facebook.com/profile.php?id=61589022357123" }] }
       ]}
       copyrightText="© 2025 I Bang Records"
     />
