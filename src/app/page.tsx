@@ -8,7 +8,6 @@ import FeatureCardTwentySeven from '@/components/sections/feature/FeatureCardTwe
 import FooterBase from '@/components/sections/footer/FooterBase';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import TeamCardTen from '@/components/sections/team/TeamCardTen';
-import TestimonialCardSixteen from '@/components/sections/testimonial/TestimonialCardSixteen';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 
 export default function LandingPage() {
@@ -93,41 +92,6 @@ export default function LandingPage() {
       ]}
       title="What We Do"
       description="We offer a full suite of services to transform your musical vision into a reality."
-    />
-  </div>
-
-  <div id="testimonials" data-section="testimonials">
-      <TestimonialCardSixteen
-      animationType="slide-up"
-      textboxLayout="default"
-      useInvertedBackground={false}
-      testimonials={[
-        {
-          id: "t1",          name: "Marcus V.",          role: "Vocalist",          company: "Artist",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/skilled-male-composer-producing-new-songs-his-mixing-console_482257-96160.jpg"},
-        {
-          id: "t2",          name: "Lena K.",          role: "Songwriter",          company: "Artist",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-singer-headphones-singing-record-new-song-modern-studio_574295-4374.jpg"},
-        {
-          id: "t3",          name: "David R.",          role: "Producer",          company: "Producer",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-musician-working-studio_23-2150265042.jpg"},
-        {
-          id: "t4",          name: "Sarah P.",          role: "Journalist",          company: "Media",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/man-woman-working-together-animation-studio_23-2149208032.jpg"},
-        {
-          id: "t5",          name: "John D.",          role: "Director",          company: "Management",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-holding-white-poster_1187-1567.jpg"},
-      ]}
-      kpiItems={[
-        {
-          value: "5.0",          label: "Avg Rating"},
-        {
-          value: "100%",          label: "Retention"},
-        {
-          value: "100+",          label: "Projects"},
-      ]}
-      title="Artist Voices"
-      description="Hear what our community says about working with I Bang Records."
     />
   </div>
 
