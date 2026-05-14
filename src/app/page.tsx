@@ -135,7 +135,7 @@ export default function LandingPage() {
       logoText="I Bang Records"
       columns={[
         { title: "Navigation", items: [{ label: "About", href: "#about" }, { label: "Artists", href: "#artists" }, { label: "Services", href: "#services" }] },
-        { title: "Socials", items: [{ label: "Instagram", href: "#" }, { label: "TikTok", href: "#" }] }
+        { title: "Socials", items: [{ label: "Instagram", href: "#" }] }
       ]}
       copyrightText="© 2025 I Bang Records"
     />
