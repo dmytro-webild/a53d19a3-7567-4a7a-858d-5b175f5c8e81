@@ -65,7 +65,7 @@ export default function LandingPage() {
         {
           id: "art-2",          name: "Kwayy Yungankk",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778741051426-yzlhyv7y.jpg",          imageAlt: "Artist Urban Pulse"},
         {
-          id: "art-4",          name: "King Art ",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778741070298-iycimyt7.jpg?_wi=1",          imageAlt: "Artist King Art"},
+          id: "art-4",          name: "King Art ",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778741436261-7vt0jbiz.jpg",          imageAlt: "Artist King Art"},
         {
           id: "art-3",          name: "Go Baby",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778741070298-iycimyt7.jpg?_wi=2",          imageAlt: "Artist Echo Theory"},
       ]}
@@ -82,7 +82,7 @@ export default function LandingPage() {
         {
           id: "s1",          title: "Artist Development",          descriptions: [
             "Full guidance from brand building to live performance coaching."],
-          imageSrc: "http://img.b2bpic.net/free-photo/side-view-man-working-studio_23-2150232116.jpg",          imageAlt: "record label office"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778741447753-thoj0byz.jpg",          imageAlt: "record label office"},
         {
           id: "s2",          title: "Production Support",          descriptions: [
             "State-of-the-art studio access with world-class engineers."],
@@ -90,7 +90,7 @@ export default function LandingPage() {
         {
           id: "s3",          title: "Strategic Marketing",          descriptions: [
             "High-impact campaigns designed to maximize your reach."],
-          imageSrc: "http://img.b2bpic.net/free-photo/person-producing-music-indoors_23-2148924304.jpg?_wi=2",          imageAlt: "record label office"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778741469054-4se1p1bu.jpg",          imageAlt: "record label office"},
       ]}
       title="What We Do"
       description="We offer a full suite of services to transform your musical vision into a reality."
