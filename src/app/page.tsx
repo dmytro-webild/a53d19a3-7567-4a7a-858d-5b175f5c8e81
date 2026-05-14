@@ -80,15 +80,15 @@ export default function LandingPage() {
       features={[
         {
           id: "s1",          title: "Artist Development",          descriptions: [
-            "Full guidance from brand building to live performance coaching."],
+            "Full guidance from brand building to live performance coaching. We work together and as a family to ensure that we are putting the music that not only we love but our audiance as well. "],
           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778741447753-thoj0byz.jpg",          imageAlt: "record label office"},
         {
           id: "s2",          title: "Production Support",          descriptions: [
-            "State-of-the-art studio access with world-class engineers."],
+            "State-of-the-art studio access with world-class engineers. We have studio access in California and a Studio in Colorado. We are currently working on building a Mobile Studio. "],
           imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-cartridge-portable-gramophone-with-blurred-background_181624-18095.jpg?_wi=2",          imageAlt: "record label office"},
         {
           id: "s3",          title: "Strategic Marketing",          descriptions: [
-            "High-impact campaigns designed to maximize your reach."],
+            "High-impact campaigns designed to maximize your reach. We are working with many talented well known artist to showcase our artist on features and opening acts. We are streaming our 1st song We Gang in the FW Bang Compilation on all streaming platforms."],
           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1778741469054-4se1p1bu.jpg",          imageAlt: "record label office"},
       ]}
       title="What We Do"
