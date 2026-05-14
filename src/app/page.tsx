@@ -49,10 +49,7 @@ export default function LandingPage() {
       title="A Legacy Built on Sound"
       description={[
         "At I Bang Records, we believe every note tells a story. Our label serves as a catalyst for creative growth, providing a sanctuary where artists are empowered to push the boundaries of their craft.",        "We specialize in comprehensive artist management, strategic promotion, and world-class production support, ensuring that every project reaches its full sonic potential."]}
-      buttons={[
-        {
-          text: "Our Story",          href: "#"},
-      ]}
+      buttons={[]}
     />
   </div>
 
